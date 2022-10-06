@@ -22,7 +22,8 @@
         },
         "title": {
           "text": "Victims of school shootings 1999-2022",
-          "fontSize": 40
+          "fontSize": 30,
+          "font": "Aharoni"
         }
       },
       {

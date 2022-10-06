@@ -13,7 +13,7 @@
               "min": 1999,
               "max": 2022,
               "step": 1,
-              "name": "Year above: "
+              "name": "From Year: "
             }
         }],
     "transform": [
@@ -27,7 +27,7 @@
     "layer": [
         {
             "title":{
-                "text": "Total People Killed each year by School Shootings",
+                "text": "Total People Killed each year in School Shootings",
                 "fontSize": 30,
                 "font": "Aharoni"
             },
@@ -79,6 +79,7 @@
                         "color": {"value": "firebrick"},
                         "size": {"value": 3}
                     }
+                    
                 },
                 {
                     "mark": {
