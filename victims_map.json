@@ -55,7 +55,7 @@
         "projection": {
           "type": "albersUsa"
         },
-        "mark": "circle",
+        "mark": {"type":"circle", "point": true},
         "encoding": {
           "longitude": {
             "field": "long",

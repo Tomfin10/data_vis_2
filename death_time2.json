@@ -11,7 +11,7 @@
             "bind": {
               "input": "range",
               "min": 1999,
-              "max": 2022,
+              "max": 2020,
               "step": 1,
               "name": "From Year: "
             }
@@ -32,13 +32,14 @@
                 "font": "Aharoni"
             },
             "mark": {
-                "type": "bar",
-                "color": "slategrey"
+                "type": "line",
+                "color": "slategrey",
+                "point": true
             },
             "encoding": {
             "x": {
                 "timeUnit": "year",
-                "field": "year",
+                "field": "date",
                 "type": "ordinal",
                 "axis": {"title": "Year", "titleFontSize": 15}
             },
@@ -117,13 +118,14 @@
             ],
             "mark": {
                 "type": "text",
-                "dy": 15,
+                "dy": 0,
+                "dx": -15,
                 "fontSize": 18,
                 "fontWeight": "bold"
             },
             "encoding": {
                 "text": {"field": "sum_killed2", "type": "quantitative"},
-                "color": {"value": "white"},
+                "color": {"value": "black"},
                 "x": {
                     "timeUnit": "year",
                     "field": "year",
